@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Enter Browser Password</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="script.js"></script>
+  </head>
+  <body>
+
+    <div id="lockContainer">
+      <img src="lock.png" id="lockImage"></img>
+    </div>
+
+    <div id = "setPassword" class="passwordContainer">
+
+      <p class="passwordLabel">Set Password</p>
+
+      <input id="setPasswordInput" class="passwordInput" placeholder="Set Password (remember!)"></input>
+      <button id="setPasswordSubmit" class="passwordSubmit" disabled>
+        <span>Submit</span>
+      </button>
+
+    </div>
+    <div id = "enterPassword" class="passwordContainer">
+
+      <p class="passwordLabel">Enter Password</p>
+
+      <input id="enterPasswordInput" class="passwordInput" type="password" placeholder="Type Password"></input>
+      <button id="enterPasswordSubmit" class="passwordSubmit" disabled>
+        <span>Submit</span>
+      </button>
+
+    </div>
+
+  </body>
+</html>
